@@ -244,6 +244,11 @@ A default value for all queues can be set using the
 
     app.conf.task_queue_max_priority = 10
 
+.. note::
+
+    If you've got already existing Queue in RabbitMQ, you may need to remove it
+    before applying configuration changes.
+
 .. _amqp-primer:
 
 AMQP Primer
